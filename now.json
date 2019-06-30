@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "name": "godoc",
+  "alias": "godoc",
   "builds": [
     { "src": "index.js", "use": "@now/node" },
     { "src": "styles.css", "use": "@now/static" }
