@@ -1,12 +1,17 @@
 body {
   position: relative;
+  min-width: 100vw;
+  max-width: 100vw;
 }
-article.markdown-body {
-  position: absolute;
-  z-index: 10000;
-  background-color: white;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+
+#readme .Box-body {
+    position: absolute;
+    z-index: 10000;
+    background-color: white;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    width: 100vw;
 }
