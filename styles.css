@@ -1,5 +1,8 @@
+body {
+  position: relative;
+}
 article.markdown-body {
-  position: fixed;
+  position: absolute;
   z-index: 10000;
   background-color: white;
   left: 0;
