@@ -1,0 +1,21 @@
+body, article.markdown-body {
+  color: #dadada;
+  background: #272935;
+}
+
+pre, pre span {
+  background: black !important;
+  color: plum !important;
+}
+
+blockquote {
+  color: skyblue !important;
+}
+
+tr {
+  background: #272935 !important;
+}
+
+a {
+  color: palegreen;
+}

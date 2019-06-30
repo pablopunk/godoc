@@ -5,7 +5,9 @@ module.exports = async (req, res) => {
     .replace(/(href=.)https?:\/\/github.com/g, '$1//' + req.headers.host)
     .replace(
       '</head>',
-      '<link media="all" rel="stylesheet" href="/styles.css" />'
+      `<link media="all" rel="stylesheet" href="/styles.css" />
+      ${req.query.dark !== undefined ? '<link media="all" rel="stylesheet" href="/dark.css" />' : ''}
+      `
     )
 
   res.end(html)
