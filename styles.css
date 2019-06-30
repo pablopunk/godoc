@@ -1,7 +1,7 @@
 body {
   position: relative;
-  min-width: 100vw;
-  max-width: 100vw;
+  min-width: 100vw !important;
+  max-width: 1200px !important;
 }
 
 #readme .Box-body {
@@ -13,5 +13,22 @@ body {
     right: 0;
     bottom: 0;
     padding: 0;
-    width: 100vw;
+    border: none;
+}
+
+.container {
+  width: 100vw !important;
+}
+
+.file-wrap {
+  display: none;
+}
+
+.d-flex {
+  display: none !important;
+}
+
+article.markdown-body > * {
+  max-width: 900px;
+  margin: 1em auto;
 }
