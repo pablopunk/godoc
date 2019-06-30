@@ -8,6 +8,7 @@
   ],
   "routes": [
     { "src": "/styles.css", "dest": "/styles.css" },
+    { "src": "/", "dest": "godoc.now.sh/pablopunk/godoc" },
     { "src": "/(.*)", "dest": "/index.js" }
   ]
 }
