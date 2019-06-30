@@ -1,0 +1,7 @@
+article.markdown-body {
+  position: absolute;
+  z-index: 10000;
+  background-color: white;
+  left: 0;
+  top: 0;
+}
