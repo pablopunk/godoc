@@ -19,3 +19,7 @@ tr {
 a {
   color: palegreen;
 }
+
+.markdown-body img {
+  background: #272935;
+}
