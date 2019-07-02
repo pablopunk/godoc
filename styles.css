@@ -7,7 +7,7 @@ body {
 #readme .Box-body {
     position: absolute;
     z-index: 10000;
-    background-color: white;
+    background: white;
     left: 0;
     top: 0;
     right: 0;

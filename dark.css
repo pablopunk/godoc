@@ -23,3 +23,7 @@ a {
 .markdown-body img {
   background: #272935;
 }
+
+#readme .Box-body {
+  background: #272935 !important;
+}
