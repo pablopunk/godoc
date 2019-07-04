@@ -8,6 +8,10 @@ pre, pre span {
   color: plum !important;
 }
 
+code {
+  background: black !important;
+}
+
 blockquote {
   color: skyblue !important;
 }
