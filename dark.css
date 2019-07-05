@@ -5,7 +5,7 @@ body, article.markdown-body {
 
 pre, pre span {
   background: black !important;
-  color: plum !important;
+  color: violet !important;
 }
 
 code {
@@ -21,7 +21,7 @@ tr {
 }
 
 a {
-  color: palegreen;
+  color: springgreen;
 }
 
 .markdown-body img {
