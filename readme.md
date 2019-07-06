@@ -8,7 +8,7 @@ Just append `<your-user>/<your-repo>` to `godoc.now.sh` and you will see your re
 
 You can also use an alternative **dark mode**. Just append `?dark` to your url. Example: https://godoc.now.sh/pablopunk/iga?dark
 
-## Use your custom domain
+## Use your custom domain
 
 For example, I deployed [pablopunk.com](https://pablopunk.com) in order to redirect subfolders to GoDoc:
 
