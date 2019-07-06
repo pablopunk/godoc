@@ -3,15 +3,6 @@ body, article.markdown-body {
   background: #272935;
 }
 
-pre, pre span {
-  background: black !important;
-  color: #c481ff !important;
-}
-
-code {
-  background: black !important;
-}
-
 blockquote {
   color: #6de5ff !important;
 }
@@ -30,4 +21,115 @@ a {
 
 #readme .Box-body {
   background: #272935 !important;
+}
+
+
+pre, pre span, code {
+  background: #222 !important;
+}
+
+/*
+ * Code highlighting
+ *
+ * Taken from https://github.com/primer/github-syntax-light/blob/master/lib/github-light.css
+ * + custom colors (sick-colors by @pablopunk)
+ */
+
+.pl-c /* comment, punctuation.definition.comment, string.comment */ {
+  color: #6a737d;
+}
+
+.pl-c1 /* constant, entity.name.constant, variable.other.constant, variable.language, support, meta.property-name, support.constant, support.variable, meta.module-reference, markup.raw, meta.diff.header, meta.output */,
+.pl-s .pl-v /* string variable */ {
+  color: #6aa2ff;
+}
+
+.pl-e /* entity */,
+.pl-en /* entity.name */ {
+  color: #c481ff;
+}
+
+.pl-smi /* variable.parameter.function, storage.modifier.package, storage.modifier.import, storage.type.java, variable.other */,
+.pl-s .pl-s1 /* string source */ {
+  color: #dadada;
+}
+
+.pl-ent /* entity.name.tag, markup.quote */ {
+  color: #6ef8be;
+}
+
+.pl-k /* keyword, storage, storage.type */ {
+  color: #fc7575;
+}
+
+.pl-s /* string */,
+.pl-pds /* punctuation.definition.string, source.regexp, string.regexp.character-class */,
+.pl-s .pl-pse .pl-s1 /* string punctuation.section.embedded source */,
+.pl-sr /* string.regexp */,
+.pl-sr .pl-cce /* string.regexp constant.character.escape */,
+.pl-sr .pl-sre /* string.regexp source.ruby.embedded */,
+.pl-sr .pl-sra /* string.regexp string.regexp.arbitrary-repitition */ {
+  color: #6de5ff;
+}
+
+.pl-v /* variable */,
+.pl-smw /* sublimelinter.mark.warning */ {
+  color: #fc7575;
+}
+
+.pl-bu /* invalid.broken, invalid.deprecated, invalid.unimplemented, message.error, brackethighlighter.unmatched, sublimelinter.mark.error */ {
+  color: #fc7575;
+}
+
+.pl-ii /* invalid.illegal */ {
+  color: #454545;
+  background-color: #fc7575;
+}
+
+.pl-c2 /* carriage-return */ {
+  color: #454545;
+  background-color: #fc7575;
+}
+
+.pl-c2::before /* carriage-return */ {
+  content: "^M";
+}
+
+.pl-sr .pl-cce /* string.regexp constant.character.escape */ {
+  font-weight: bold;
+  color: #6ef8be;
+}
+
+.pl-ml /* markup.list */ {
+  color: #e9ff81;
+}
+
+.pl-mh /* markup.heading */,
+.pl-mh .pl-en /* markup.heading entity.name */,
+.pl-ms /* meta.separator */ {
+  font-weight: bold;
+  color: #6aa2ff;
+}
+
+.pl-mi /* markup.italic */ {
+  font-style: italic;
+  color: #dadada;
+}
+
+.pl-mb /* markup.bold */ {
+  font-weight: bold;
+  color: #dadada;
+}
+
+.pl-ba /* brackethighlighter.tag, brackethighlighter.curly, brackethighlighter.round, brackethighlighter.square, brackethighlighter.angle, brackethighlighter.quote */ {
+  color: #dadada;
+}
+
+.pl-sg /* sublimelinter.gutter-mark */ {
+  color: #dadada;
+}
+
+.pl-corl /* constant.other.reference.link, string.other.link */ {
+  text-decoration: underline;
+  color: #6de5ff;
 }
