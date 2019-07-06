@@ -5,7 +5,7 @@ body, article.markdown-body {
 
 pre, pre span {
   background: black !important;
-  color: violet !important;
+  color: #c481ff !important;
 }
 
 code {
@@ -13,7 +13,7 @@ code {
 }
 
 blockquote {
-  color: skyblue !important;
+  color: #6de5ff !important;
 }
 
 tr {
@@ -21,7 +21,7 @@ tr {
 }
 
 a {
-  color: springgreen;
+  color: #6ef8be;
 }
 
 .markdown-body img {
