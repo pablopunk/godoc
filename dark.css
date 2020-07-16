@@ -23,6 +23,17 @@ a {
   background: #272935 !important;
 }
 
+.markdown-body h1, .markdown-body h2 {
+  border-bottom-color: #373f48;
+}
+
+.markdown-body table th, .markdown-body table td {
+  border-color: #373f48;
+}
+
+.markdown-body hr {
+  background-color: #373f48;
+}
 
 pre, pre span, code {
   background: #222 !important;

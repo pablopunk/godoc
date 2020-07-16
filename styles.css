@@ -4,31 +4,16 @@ body {
   max-width: 1200px !important;
 }
 
-#readme .Box-body {
-    position: absolute;
-    z-index: 10000;
-    background: white;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0;
-    border: none;
-}
-
-.container {
-  width: 100vw !important;
-}
-
-.file-wrap {
+header {
   display: none;
 }
 
-.d-flex {
-  display: none !important;
+#readme {
+  position: absolute;
+  top: 0;
+  border: none;
 }
 
-article.markdown-body > * {
-  max-width: 900px;
-  margin: 1em auto;
+.Box-header, .pagehead-actions, .pagehead, .footer {
+  display: none !important;
 }
