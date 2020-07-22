@@ -6,11 +6,10 @@ header {
   position: absolute;
   top: 0;
   border: none;
-  width: 100vw;
   margin: 0;
   padding: 0;
 }
 
-.Box-header, .pagehead-actions, .pagehead, .footer, .signup-prompt, .BorderGrid {
+.Box-header, .pagehead-actions, .pagehead, .footer, .signup-prompt, .BorderGrid, .hide-full-screen {
   display: none !important;
 }
