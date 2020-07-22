@@ -1,7 +1,6 @@
 const fetch = require('node-fetch')
 
 module.exports = async (req, res) => {
-  console.log(req.url)
   const githubRes = await fetch(`https://github.com${req.url}`)
   const html = (await githubRes.text())
     .replace(
